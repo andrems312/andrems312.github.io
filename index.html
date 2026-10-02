@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO -->
+  <title>André Manoel | Desenvolvedor de IA</title>
+  <meta name="description" content="Portfólio de André Manoel, estudante de Tecnologia em Inteligência Artificial e desenvolvedor de soluções com IA, Python, APIs e Machine Learning.">
+  <meta name="author" content="André Manoel dos Santos">
+  <meta name="theme-color" content="#0E1320">
+
+  <!-- Open Graph (troque a URL depois de publicar no GitHub Pages) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="André Manoel | Desenvolvedor de IA">
+  <meta property="og:description" content="Estudante de Tecnologia em Inteligência Artificial construindo projetos com Python, APIs e IA generativa.">
+  <meta property="og:image" content="assets/og-image.png">
+  <meta property="og:url" content="https://andrems312.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Fontes (o site continua legível se elas não carregarem) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- ============ NAVEGAÇÃO ============ -->
+  <header class="site-header" id="topo">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a href="#inicio" class="brand" aria-label="André Manoel, voltar ao início">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32"><path d="M6 25 C 11 20, 14 17, 16 15 S 22 9, 26 7" /><circle cx="6" cy="25" r="2.6"/><circle cx="16" cy="15" r="2.6"/><circle cx="26" cy="7" r="2.6"/></svg>
+        </span>
+        <span class="brand-name">André Manoel</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="menu">
+        <ul class="nav-links">
+          <li><a href="#inicio" class="nav-link">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="#jornada" class="nav-link">Jornada</a></li>
+          <li><a href="#projetos" class="nav-link">Projetos</a></li>
+          <li><a href="#tecnologias" class="nav-link">Tecnologias</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+        <a href="#curriculo" class="btn btn-small btn-primary nav-cta">Currículo</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="status-pill">
+            <span class="status-dot" aria-hidden="true"></span>
+            Em constante evolução na área de Inteligência Artificial
+          </p>
+
+          <h1 id="hero-title" class="hero-title">
+            Olá, eu sou André&nbsp;Manoel.
+          </h1>
+          <p class="hero-role">Desenvolvedor de IA &amp; Estudante de Tecnologia em Inteligência Artificial</p>
+
+          <p class="hero-lead">
+            Transformo o que aprendo em projetos, e projetos em soluções com Inteligência Artificial.
+          </p>
+
+          <p class="hero-now" aria-live="off">
+            <span class="hero-now-label">Agora estudando</span>
+            <span class="typed" data-words="Python|Machine Learning|IA Generativa|APIs|Agentes de IA">Python</span>
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projetos" class="btn btn-primary">Ver meus projetos</a>
+            <a href="#jornada" class="btn btn-ghost">Conhecer minha trajetória</a>
+          </div>
+
+          <ul class="quick-links" aria-label="Links rápidos">
+            <li>
+              <a href="https://github.com/andrems312" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+                GitHub<span class="sr-only"> (abre em nova aba)</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/andr%C3%A9-manoel/" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+                LinkedIn<span class="sr-only"> (abre em nova aba)</span>
+              </a>
+            </li>
+            <li>
+              <a href="documents/curriculo-andre-manoel.pdf" download>
+                <svg class="icon icon-stroke" aria-hidden="true" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5Z"/><path d="M14 3v5h5M12 11v6M9.5 14.5 12 17l2.5-2.5"/></svg>
+                Currículo (PDF)
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Assinatura visual: a trajetória Aprendizado → Evolução -->
+        <figure class="hero-visual" aria-label="Ilustração da minha trajetória: aprendizado, código, projeto, IA e evolução">
+          <svg class="trajectory" viewBox="0 0 520 460" role="img" aria-hidden="true">
+            <defs>
+              <linearGradient id="trail" x1="0" y1="1" x2="1" y2="0">
+                <stop offset="0" stop-color="var(--line-strong)"/>
+                <stop offset="1" stop-color="var(--accent)"/>
+              </linearGradient>
+              <radialGradient id="glow">
+                <stop offset="0" stop-color="var(--accent)" stop-opacity=".55"/>
+                <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+
+            <!-- Malha de neurônios ao fundo (gerada pelo script.js) -->
+            <g class="mesh" id="mesh"></g>
+
+            <path id="trajectory-path" class="trajectory-path"
+              d="M60 390 C 110 350, 130 318, 170 300 S 238 268, 270 250 S 330 192, 360 160 S 428 90, 460 70" />
+
+            <g class="stations">
+              <g class="station" style="--i:0" transform="translate(60 390)">
+                <circle class="station-halo" r="16"/><circle class="station-dot" r="6"/>
+                <text x="16" y="34">01 Aprendizado</text>
+              </g>
+              <g class="station" style="--i:1" transform="translate(170 300)">
+                <circle class="station-halo" r="16"/><circle class="station-dot" r="6"/>
+                <text x="18" y="30">02 Código</text>
+              </g>
+              <g class="station" style="--i:2" transform="translate(270 250)">
+                <circle class="station-halo" r="16"/><circle class="station-dot" r="6"/>
+                <text x="-18" y="-22" text-anchor="end">03 Projeto</text>
+              </g>
+              <g class="station" style="--i:3" transform="translate(360 160)">
+                <circle class="station-halo" r="16"/><circle class="station-dot" r="6"/>
+                <text x="20" y="22">04 IA</text>
+              </g>
+              <g class="station station-last" style="--i:4" transform="translate(460 70)">
+                <circle class="station-halo" r="22" fill="url(#glow)"/><circle class="station-dot" r="7"/>
+                <text x="-18" y="-20" text-anchor="end">05 Evolução</text>
+              </g>
+            </g>
+
+            <circle class="pulse" r="4">
+              <animateMotion dur="7s" begin="2.6s" repeatCount="indefinite" calcMode="linear">
+                <mpath href="#trajectory-path"/>
+              </animateMotion>
+            </circle>
+          </svg>
+          <figcaption class="visual-caption">Cada etapa alimenta a próxima.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ SOBRE ============ -->
+    <section class="section" id="sobre" aria-labelledby="sobre-title">
+      <div class="container about">
+        <div class="about-text reveal">
+          <h2 id="sobre-title" class="section-title">Sobre mim</h2>
+          <p class="lead">
+            Sou estudante de Tecnologia em Inteligência Artificial e estou construindo minha carreira em tecnologia, um projeto de cada vez.
+          </p>
+          <p>
+            Meu primeiro contato com programação veio ainda no ensino médio, por meio dos cursos da Alura. Foi ali que a curiosidade virou interesse de verdade, e esse interesse me levou à graduação em Tecnologia em Inteligência Artificial.
+          </p>
+          <p>
+            Na faculdade comecei a desenvolver meus primeiros projetos. Aprofundei os fundamentos de programação com Python, aprendi a trabalhar com APIs e hoje estou explorando IA generativa: modelos de linguagem, agentes e aplicações construídas sobre eles.
+          </p>
+          <p>
+            Meu foco agora é transformar o que estudo em aplicações práticas. Cada projeto próprio é uma forma de testar o que aprendi, entender onde ainda preciso evoluir e dar o próximo passo.
+          </p>
+        </div>
+
+        <aside class="facts reveal" aria-label="Informações rápidas">
+          <dl>
+            <div class="fact">
+              <dt>Formação</dt>
+              <dd>Tecnologia em Inteligência Artificial<br><span class="muted">Universidade Santa Cecília (Unisanta), cursando o 2º semestre, previsão de conclusão em dezembro de 2027</span></dd>
+            </div>
+            <div class="fact">
+              <dt>Foco atual</dt>
+              <dd>Python, APIs e IA generativa</dd>
+            </div>
+            <div class="fact">
+              <dt>Base</dt>
+              <dd>Peruíbe, SP</dd>
+            </div>
+            <div class="fact">
+              <dt>Idiomas</dt>
+              <dd>Português nativo, inglês básico (leitura técnica)</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ JORNADA ============ -->
+    <section class="section section-alt" id="jornada" aria-labelledby="jornada-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 id="jornada-title" class="section-title">Minha jornada</h2>
+          <p class="section-sub">Do primeiro curso aos projetos com IA: o caminho até aqui e o que vem a seguir.</p>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <span class="timeline-step" aria-hidden="true">01</span>
+            <div class="timeline-card">
+              <h3>Ensino médio</h3>
+              <p>Cursos e primeiros contatos com tecnologia através da Alura.</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <span class="timeline-step" aria-hidden="true">02</span>
+            <div class="timeline-card">
+              <h3>Início da graduação</h3>
+              <p>Entrada no curso de Tecnologia em Inteligência Artificial.</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <span class="timeline-step" aria-hidden="true">03</span>
+            <div class="timeline-card">
+              <h3>Primeiros projetos</h3>
+              <p>Primeiras aplicações e experiências práticas com programação.</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <span class="timeline-step" aria-hidden="true">04</span>
+            <div class="timeline-card">
+              <h3>Python</h3>
+              <p>Aprofundamento dos fundamentos de programação utilizando Python.</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <span class="timeline-step" aria-hidden="true">05</span>
+            <div class="timeline-card">
+              <h3>APIs</h3>
+              <p>Aprendizado sobre consumo e utilização de APIs para criar aplicações.</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <span class="timeline-step" aria-hidden="true">06</span>
+            <div class="timeline-card">
+              <h3>IA generativa</h3>
+              <p>Exploração de modelos de linguagem, agentes e aplicações baseadas em IA.</p>
+            </div>
+          </li>
+          <li class="timeline-item timeline-next reveal">
+            <span class="timeline-step" aria-hidden="true">07</span>
+            <div class="timeline-card">
+              <h3>Próximo passo</h3>
+              <p>Continuar construindo projetos mais completos envolvendo IA, APIs, automação e Cloud.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PROJETOS ============ -->
+    <section class="section" id="projetos" aria-labelledby="projetos-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 id="projetos-title" class="section-title">Projetos</h2>
+          <p class="section-sub">Projetos que transformam conhecimento em prática.</p>
+        </header>
+
+        <!-- Os cards são gerados a partir da lista PROJECTS em script.js -->
+        <div class="projects-grid" id="projects-grid">
+          <noscript><p>Ative o JavaScript para ver os projetos, ou acesse <a href="https://github.com/andrems312">github.com/andrems312</a>.</p></noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TECNOLOGIAS ============ -->
+    <section class="section section-alt" id="tecnologias" aria-labelledby="tec-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 id="tec-title" class="section-title">Tecnologias &amp; áreas de interesse</h2>
+          <p class="section-sub">Sem porcentagens: cada tecnologia aparece no estágio em que realmente está nos meus estudos.</p>
+        </header>
+
+        <div class="stack">
+          <div class="stack-col reveal">
+            <h3 class="stack-stage"><span class="stage-mark stage-1" aria-hidden="true"></span>Praticando</h3>
+            <p class="stack-desc">Já uso em projetos e exercícios.</p>
+            <ul class="chips">
+              <li class="chip">Python</li>
+              <li class="chip">APIs</li>
+              <li class="chip">Lógica de programação e algoritmos</li>
+            </ul>
+          </div>
+          <div class="stack-col reveal">
+            <h3 class="stack-stage"><span class="stage-mark stage-2" aria-hidden="true"></span>Estudando</h3>
+            <p class="stack-desc">Em estudo na graduação e por conta própria.</p>
+            <ul class="chips">
+              <li class="chip">Inteligência Artificial</li>
+              <li class="chip">Machine Learning</li>
+              <li class="chip">Matemática e estatística</li>
+            </ul>
+          </div>
+          <div class="stack-col reveal">
+            <h3 class="stack-stage"><span class="stage-mark stage-3" aria-hidden="true"></span>Explorando</h3>
+            <p class="stack-desc">Onde estou testando ideias novas.</p>
+            <ul class="chips">
+              <li class="chip">IA generativa</li>
+              <li class="chip">Desenvolvimento de soluções com IA</li>
+              <li class="chip">Agentes de IA</li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="radar reveal">
+          <span class="radar-label">No radar para os próximos projetos:</span>
+          automação e Cloud aplicada à IA.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ COMO EU PENSO ============ -->
+    <section class="mindset" aria-labelledby="mindset-title">
+      <div class="container">
+        <h2 id="mindset-title" class="mindset-title reveal">Como eu penso</h2>
+        <div class="principles">
+          <article class="principle reveal">
+            <h3>Aprender fazendo</h3>
+            <p>Transformar conceitos estudados em projetos práticos.</p>
+          </article>
+          <article class="principle reveal">
+            <h3>Curiosidade</h3>
+            <p>Explorar novas tecnologias e entender como elas podem ser aplicadas.</p>
+          </article>
+          <article class="principle reveal">
+            <h3>Evolução contínua</h3>
+            <p>Melhorar meus conhecimentos através de projetos e estudos.</p>
+          </article>
+          <article class="principle reveal">
+            <h3>IA aplicada</h3>
+            <p>Transformar inteligência artificial em soluções úteis.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GITHUB ============ -->
+    <section class="section" id="github" aria-labelledby="github-title">
+      <div class="container github">
+        <div class="github-text reveal">
+          <h2 id="github-title" class="section-title">Acompanhe pelo GitHub</h2>
+          <p>É no GitHub que meus projetos ganham forma: código, testes e cada nova versão. Os repositórios ao lado são carregados direto do meu perfil público.</p>
+          <a href="https://github.com/andrems312" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+            Explorar GitHub<span class="sr-only"> (abre em nova aba)</span>
+          </a>
+        </div>
+
+        <div class="terminal reveal" aria-labelledby="terminal-title">
+          <div class="terminal-bar">
+            <span class="terminal-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="terminal-title" id="terminal-title">github.com/andrems312</span>
+          </div>
+          <div class="terminal-body">
+            <p class="terminal-cmd" aria-hidden="true"><span class="prompt">$</span> git log --repos --recentes</p>
+            <ul class="repo-list" id="repo-list" aria-live="polite">
+              <li class="repo-loading">Carregando repositórios…</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CURRÍCULO ============ -->
+    <section class="section section-tight" id="curriculo" aria-labelledby="cv-title">
+      <div class="container">
+        <div class="cv-card reveal">
+          <div class="cv-text">
+            <h2 id="cv-title" class="section-title">Meu currículo</h2>
+            <p>Formação, conhecimentos e projetos reunidos em um PDF de uma página.</p>
+          </div>
+          <div class="cv-actions">
+            <a href="documents/curriculo-andre-manoel.pdf" class="btn btn-primary" download>
+              <svg class="icon icon-stroke" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M5 20h14"/></svg>
+              Baixar currículo
+            </a>
+            <a href="https://www.linkedin.com/in/andr%C3%A9-manoel/" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">
+              Conectar no LinkedIn<span class="sr-only"> (abre em nova aba)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO ============ -->
+    <section class="section contact" id="contato" aria-labelledby="contato-title">
+      <div class="container contact-inner reveal">
+        <h2 id="contato-title" class="contact-title">Vamos conversar?</h2>
+        <p class="contact-text">Se quiser falar sobre um projeto, uma oportunidade ou trocar ideias sobre IA, meu e-mail está sempre aberto.</p>
+
+        <div class="email-row">
+          <a href="mailto:andrems312@gmail.com" class="email-link">andrems312@gmail.com</a>
+          <button type="button" class="copy-btn" id="copy-email" data-email="andrems312@gmail.com">
+            <svg class="icon icon-stroke" aria-hidden="true" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a1 1 0 0 1 1-1h10"/></svg>
+            <span class="copy-label">Copiar</span>
+          </button>
+        </div>
+
+        <div class="contact-actions">
+          <a href="mailto:andrems312@gmail.com" class="btn btn-primary">Enviar e-mail</a>
+          <a href="https://www.linkedin.com/in/andr%C3%A9-manoel/" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (abre em nova aba)</span></a>
+          <a href="https://github.com/andrems312" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (abre em nova aba)</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-name">André Manoel dos Santos</p>
+        <p class="footer-role">Desenvolvedor de IA &amp; Estudante de Tecnologia em Inteligência Artificial.</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="https://github.com/andrems312" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (abre em nova aba)</span></a></li>
+        <li><a href="https://www.linkedin.com/in/andr%C3%A9-manoel/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (abre em nova aba)</span></a></li>
+        <li><a href="mailto:andrems312@gmail.com">E-mail</a></li>
+      </ul>
+    </div>
+    <div class="container footer-bottom">
+      <ol class="footer-trail" aria-label="Minha trajetória">
+        <li>Aprendizado</li><li>Código</li><li>Projeto</li><li>IA</li><li>Evolução</li>
+      </ol>
+      <p class="footer-quote">Todo projeto termina ensinando o que estudar a seguir.</p>
+    </div>
+  </footer>
+
+  <!-- Voltar ao topo -->
+  <a href="#inicio" class="to-top" aria-label="Voltar ao topo">
+    <svg class="icon icon-stroke" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 19V5M5.5 11.5 12 5l6.5 6.5"/></svg>
+  </a>
+
+  <!-- Modal de projeto (preenchido pelo script.js) -->
+  <dialog class="modal" id="project-modal" aria-labelledby="modal-title">
+    <div class="modal-inner">
+      <button type="button" class="modal-close" aria-label="Fechar detalhes do projeto">
+        <svg class="icon icon-stroke" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+      <div class="modal-content" id="modal-content"></div>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
