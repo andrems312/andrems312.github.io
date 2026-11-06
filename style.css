@@ -410,19 +410,6 @@ a { color: inherit; }
 .repo-desc { color: var(--muted); font-family: var(--font-body); font-size: .875rem; }
 .repo-meta { display: flex; flex-wrap: wrap; gap: .25rem 1rem; color: #8A94AB; font-size: .78rem; }
 
-/* Currículo */
-.cv-card {
-  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.5rem 2rem;
-  padding: clamp(1.75rem, 4vw, 2.75rem); border-radius: var(--radius-lg);
-  background:
-    radial-gradient(600px circle at 100% 0%, rgba(217, 178, 111, .1), transparent 60%),
-    var(--surface-solid);
-  border: 1px solid var(--line-strong);
-}
-.cv-text { flex: 1 1 280px; }
-.cv-actions { flex: 0 0 auto; }
-.cv-text p { margin: .6rem 0 0; color: var(--muted); }
-.cv-actions { display: flex; flex-wrap: wrap; gap: .75rem; }
 
 /* Contato */
 .contact { text-align: center; padding-bottom: calc(var(--section-y) * 1.1); }
@@ -515,8 +502,7 @@ a { color: inherit; }
 @media (max-width: 640px) {
   .stack { grid-template-columns: 1fr; }
   .principles { grid-template-columns: 1fr; }
-  .hero-actions .btn, .cv-actions .btn { flex: 1 1 100%; }
-  .cv-actions { width: 100%; flex: 1 1 100%; }
+  .hero-actions .btn { flex: 1 1 100%; }
   .project-card { padding: 1.4rem; }
   .project-card.is-placeholder { min-height: 0; }
   .project-actions .btn { flex: 1 1 auto; }
