@@ -12,18 +12,64 @@
    --------------------------------------------------------- */
 const PROJECTS = [
   {
-    id: "agente-estudos",
-    name: "Agente de Estudos em Python",
+    id: "sistema-cadastro-participantes",
+    name: "Sistema de Cadastro de Participantes",
     description:
-      "Projeto desenvolvido para explorar conceitos de Inteligência Artificial, Python e interação com modelos de IA.",
+      "Sistema web completo para cadastrar, pesquisar e localizar no mapa participantes e empresas, com login, níveis de acesso e consulta automática de CNPJ e CEP.",
     goal:
-      "Colocar em prática os fundamentos de Python e entender como uma aplicação se comunica com um modelo de IA.",
-    technologies: ["Python", "Inteligência Artificial", "Modelos de IA"],
-    status: "Em desenvolvimento", // [PREENCHER] confirme o status atual
-    demoUrl: null,
-    repoUrl: "https://github.com/andrems312", // [PREENCHER] troque pelo link do repositório do projeto
+      "Construir uma aplicação pronta para produção, com banco de dados real, autenticação e regras de segurança aplicadas na interface, no servidor e no banco.",
+    technologies: ["Next.js", "TypeScript", "Supabase", "PostgreSQL", "Tailwind CSS"],
+    status: "Online",
+    demoUrl: "https://sistema-cadastro-participantes.vercel.app",
+    repoUrl: "https://github.com/andrems312/sistema-cadastro-participantes",
     details: [
-      // [PREENCHER] descreva aqui as funcionalidades reais do projeto, uma por linha
+      "Login, recuperação de senha e níveis de acesso (administrador e usuário) com Supabase Auth",
+      "Cadastro de pessoa física ou jurídica com validação de CPF/CNPJ e máscaras nos campos",
+      "Consulta automática de CNPJ e CEP pela BrasilAPI, que preenche o endereço sozinha",
+      "Mapa com OpenStreetMap e Leaflet para localizar cada participante",
+      "Upload de imagens para o Supabase Storage com validação de tipo e tamanho",
+      "Pesquisa em tempo real com filtros, paginação e dashboard com indicadores",
+      "Segurança com Row Level Security no PostgreSQL e chaves de API só no servidor",
+    ],
+  },
+  {
+    id: "assistente-de-estudos",
+    name: "Assistente de Estudos",
+    description:
+      "Chatbot de estudos com interface web moderna que responde dúvidas de programação e tecnologia usando modelos de IA pela OpenRouter.",
+    goal:
+      "Colocar em prática Python, APIs e IA generativa, levando um agente de linha de comando para uma aplicação web completa.",
+    technologies: ["Python", "Flask", "OpenRouter", "IA generativa", "JavaScript"],
+    status: "Concluído",
+    demoUrl: null,
+    repoUrl: "https://github.com/andrems312/assistente-de-estudos",
+    details: [
+      "Chat com tema escuro, animações e layout responsivo",
+      "Respostas renderizadas em Markdown, com blocos de código",
+      "Ferramentas do agente para informar a hora e a data atuais",
+      "Histórico de conversa por sessão",
+      "Chave de API protegida no servidor, nunca exposta no navegador",
+      "Pronto para deploy gratuito no Render",
+    ],
+  },
+  {
+    id: "que-bandeira-e-essa",
+    name: "Que bandeira é essa?",
+    description:
+      "Jogo web em que você adivinha o país pela bandeira, com fases de dificuldade crescente, vidas, tempo e mapas como dica.",
+    goal:
+      "Praticar lógica de programação e desenvolvimento web criando um jogo completo em uma única página.",
+    technologies: ["HTML", "CSS", "JavaScript", "D3.js"],
+    status: "Concluído",
+    demoUrl: null,
+    repoUrl: "https://github.com/andrems312/que-bandeira-e-essa",
+    details: [
+      "Quatro fases: Fácil, Médio, Difícil e Expert, com pontuação maior a cada fase",
+      "Sistema de 5 vidas e tempo limite nas fases mais difíceis",
+      "Dicas com letras, tamanho do nome e mapas com a silhueta e a localização do país",
+      "Mapas desenhados com D3.js e TopoJSON",
+      "Recorde salvo no navegador",
+      "Layout que se ajusta ao celular",
     ],
   },
 ];
